@@ -1,0 +1,686 @@
+@font-face {src: url(../fonts/ARDECODE.ttf);
+    font-family:ardecode;}
+
+@font-face { src: url(../fonts/DroidSans-Bold.ttf);
+font-family: doridsans;
+}
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* font-family: 'Quicksand', sans-serif;  */
+
+
+
+* {margin: 0; padding: 0;}
+.left {float: left;}
+.right {float: right;}
+
+
+
+
+
+footer {
+    background-color: #333333;
+    min-height: 360px;
+    overflow: hidden;
+ 
+}
+
+#banner {
+    background-color: #00CCFF;
+    min-height: 460px;
+    position: relative;
+    
+}
+#bookapackage { background: url(../img/slider-background.jpg);
+    min-height: 500px;
+border-bottom: 2px solid #929496;
+overflow: hidden;
+width: 100%;
+background-size: cover;
+}
+
+
+#select_room_type {
+       font-family: Quicksand;
+    color: #747475;
+    width: 255px;
+    height: 45px; 
+    border-radius: 10px;
+    border: none;
+    background: url(../img/select-option.png);
+        background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    appearance:none;
+    -moz-appearance:none; 
+    -webkit-appearance:none;
+    padding-left: 11%;
+}
+
+#roomtypes {
+    min-height: 800px;
+    background: url(../img/room-types-background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#testimonial {
+    background-color: #E7CB2C;
+}
+header{background-color: #2a2e33; 
+    width:100%;
+overflow: hidden;}
+
+.headerwrapper {width: 1100px;
+min-height: 100px;
+margin: 0 auto;}
+.headerlogo {
+    width: 365px;
+    height: 26px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #C6C7C9;
+    padding-top: 35px; 
+}
+
+.logotitle {
+}
+
+.headermenu {width: 580px;}
+.headermenu ul{margin: 0; padding: 0;
+list-style: none;}
+.headermenu ul li{float: left;}
+.headermenu ul li a {
+    text-decoration: none;
+  text-transform: uppercase;
+color: white;
+font-family: doridsans;
+font-size: 12px;
+padding: 39px 13px;
+display: block; }
+.headermenu ul li a:hover{
+    background-color: #1E2329;
+    color: white;
+    font-size:12px;
+    border-top: 4px solid #FFD700;
+    padding: 35px 10px ;
+}
+
+.banner_content {
+    width: 650px;
+    245px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.bannerhello {font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px; 
+    color: white;}
+.bannerP1 {
+font-family: Quicksand;
+    font-weight: normal;
+    font-size: 30px; 
+    color: white;
+    margin-bottom: 20px;
+} 
+
+.bannerH1 {font-family:doridsans;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+        border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    padding: 15px 0px;
+}
+
+.bannerP2 {
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 30px; 
+    color: white;
+    margin-top: 30px;
+}
+
+.viewpriceform {
+    background-color: #2a2e33;
+    width: 1020px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    bottom: -10%;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 30px 100px 0px rgba(0, 0, 0, 1);
+}
+
+.form_group { 
+    float: left;
+    margin: 10px 10px
+}
+.form_group label { font-family: Quicksand;
+    font-weight: 400;
+    color: #C0BD0B;
+    font-size: 18px; 
+}
+
+.common_form {
+    width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+   background: url(../img/date.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    
+}
+.formbtn { width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+background-color: #FFD700;
+font-family:doridsans ;
+margin-top: 34px;}
+
+
+.bookapackage_text {
+    width: 1200px;
+    height: 110px;
+    text-align: center;
+     margin: 0 auto;
+    margin-top: 80px;
+}
+.bookapackage_text h1 {
+    font-family: ardecode;
+    font-size: 60px;
+    color: #2A2E33;
+    font-weight: 300;
+    margin: 0px;
+}
+.bookapackage_text p {
+    font-family: Quicksand;
+    font-size: 14px;
+    color: #5C5D5F;
+}
+
+.bookapackage_slider {
+    width: 1050px;
+    height: 230px; 
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left_arrow {margin-top: 6.5%;
+}
+
+.singleitem {
+ width: 215px;
+    height: 215px;
+    border: 3px solid #2A2E33;
+    background-color: white;
+    float: left;
+    border-radius: 130px;
+    margin-left: 6.5%;
+    
+}
+
+.right_arrow {
+    margin-top: 6.5%;
+}
+
+.roomtypes_title {
+    width: 350px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 15px;
+     
+}
+.roomtypes_title h1 { font-family: ardecode;
+    font-size: 60px;
+    color: #2A2E33;
+    font-weight: 300;
+margin: 0px;}
+
+.roomtypes_all {
+    width: 1190px;
+    height: 580px;
+    margin:35px auto;
+    
+}
+
+.roomtypes_single {width: 380px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin: 0px 8px;
+}
+
+.singeroom_image {
+}
+
+.singleroom_data {}
+
+.singleroom_data h1{font-family: Quicksand;
+    font-size: 24px;
+    color: #575758;
+    font-weight: 400;}
+.singleroom_data p{ 
+    font-family: Quicksand;
+    font-size: 12px;
+ color: #575758;}
+
+.roomdata_p1 {
+}
+
+.singleroom_facilities {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.testimonial_data {
+    /* width: 1100px; */
+    height: 95px;
+    font-family: Quicksand;
+    color: white;
+    /* float: left; */
+    padding-top: 45px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+}
+.testimonial_data h1{
+font-size: 48px;
+font-weight: 300;
+}
+.testimonial_p1 {font-size: 18px;
+    font-style: italic;
+}
+
+.testimonial_p2 {font-size: 18px;
+    font-style: italic;
+}
+
+.person_image {position: absolute;
+    right: 0%;
+    bottom: 0;
+}
+.footercontent {
+    width: 1150px;
+    height: 190px;margin: 0 auto;
+    padding-top: 25px;}
+
+.footercontent h1{
+        font-size: 18px;
+    font-family: Quicksand;
+    color: #F5F5F5;
+    font-weight: 500;
+}
+
+.footercontent p{}
+
+.abouthotel {width: 225px;
+    height: 200px;
+}
+
+.common_p1 {padding-top: 15px; color: #B5B5B5;
+font-size: 12px;
+font-family: Quicksans;}
+
+.abouthotel_p1 {
+   
+    
+}
+
+.latestnews {
+    width: 200px;
+    height: 200px;
+}
+
+.singlenews {
+    color: #B5B5B5;
+font-size: 12px;
+font-family: Quicksans;
+    padding-top: 15px;
+}
+
+.singlenewsp1 {
+    color: #C0BD0B;
+}
+
+.joindeluxe {
+    width: 460px;
+    height: 200px;
+}
+
+.common_p1 {
+}
+
+.joindeluxe_button {
+        width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E1CB27;
+   margin-top: 25px;
+}
+
+.memberarea {
+    width: 210px;
+    height: 200px;
+}
+
+.memberarea_formgroup {} 
+.memberarea_formgroup label{color:#B5B5B5;
+font-family: Quicksand;} 
+.memberarea_formgroup button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E1CB27;
+   margin-top: 25px;} 
+
+.memberarea_formgroup input{}
+.username{background: transparent;
+border: 1px solid black;
+height: 32px;
+width: 200px;
+border-radius: 10px;}
+.password {height: 32px;
+width: 200px;
+    background: transparent;
+border: 1px solid black;
+    border-radius: 10px;
+}
+.testimonialwrapper{width: 1100px;
+min-height: 185px;
+position: relative;
+margin: 0 auto;}
+
+.footer_bottom{ 
+    height: 35px;
+    background-color: #1F1F1F;
+    border-bottom: 10px solid #333333;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
